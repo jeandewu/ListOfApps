@@ -14,7 +14,7 @@ import lombok.Data;
 
 @Data
 public class AppAdapter extends RecyclerView.Adapter<AppAdapter.AppViewHolder> {
-
+//fthfgh
     private final List<AppInfo> appInfos;
 
     @Override
