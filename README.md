@@ -1,0 +1,1 @@
+# ListView [![Build Status](https://travis-ci.org/jeandewu/ListOfApps.svg?branch=master)](https://travis-ci.org/jeandewu/ListOfApps) [![codecov](https://codecov.io/gh/jeandewu/ListOfApps/branch/master/graph/badge.svg)](https://codecov.io/gh/jeandewu/ListOfApps)
