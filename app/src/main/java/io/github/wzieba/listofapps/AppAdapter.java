@@ -14,7 +14,6 @@ import lombok.Data;
 
 @Data
 public class AppAdapter extends RecyclerView.Adapter<AppAdapter.AppViewHolder> {
-//fthfgh
     private final List<AppInfo> appInfos;
 
     @Override
@@ -42,8 +41,8 @@ public class AppAdapter extends RecyclerView.Adapter<AppAdapter.AppViewHolder> {
 
         public AppViewHolder(View itemView) {
             super(itemView);
-            icon = (ImageView) itemView.findViewById(R.id.row_imageview);
-            name = (TextView) itemView.findViewById(R.id.row_textview);
+            icon = itemView.findViewById(R.id.row_imageview);
+            name = itemView.findViewById(R.id.row_textview);
         }
     }
 }
